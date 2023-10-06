@@ -1,0 +1,115 @@
+.glavni{
+
+    display:flex;
+
+    flex-direction: column;
+
+    margin:50px;
+
+}
+
+.sadrzaj{
+
+    display:flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+   
+
+}
+
+.leviDeo{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width:150px;
+
+}
+
+.prozor
+
+{
+
+    display: flex;
+
+    flex-direction: row;
+
+    margin-bottom: 10px;
+
+}
+
+.desniDeo{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    flex-direction: column;
+
+    margin-left: 30px;
+
+    justify-content: space-evenly;
+
+    /*flex: 1;*/
+
+ 
+
+}
+
+.labelDVD{
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap:wrap;
+
+    justify-content: space-between;
+
+}
+
+.labelDVD{
+
+    padding-bottom: 10px;
+
+    padding-top: 10px;
+
+}
+
+.dugme{
+
+    margin-top: 10px
+
+}
+
+.raf{
+
+    width: 300px;
+
+    height:3vh;
+
+    border: 1px solid black;
+
+    display: flex;
+
+    margin-left: 10px;
+
+}
+
+.popuna{
+
+    display: flex;
+
+    flex-grow: 1;
+
+    border: 1px solid black;
+
+    background-color: white;
+
+}
+
+/*desni deo pored forme*/
